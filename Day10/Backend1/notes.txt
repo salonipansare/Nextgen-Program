@@ -1,0 +1,47 @@
+mongoDb steps :-
+
+1.create cluster
+2.create username - avcoe and password - K4ZN78v3uOKoydGe
+3.create network access
+
+
+
+mongodb url :- mongodb+srv://avcoe:<db_password>@cluster1.3fz4b.mongodb.net/
+enter password in between <> 
+ >  mongodb+srv://avcoe:K4ZN78v3uOKoydGe@cluster1.3fz4b.mongodb.net/
+
+
+
+******* project steps *******
+
+Create 2 folders - backend & frontend
+open backend folder
+create a express project
+
+
+Express :-
+commands to install express--
+ > npm init
+ > npm install express
+
+create index.js file  and write a hello world program from the expressjs.com website.
+
+install nodemon :-
+ >npm install -g nodemon
+check if postmen is installed !
+
+steps :-
+install mongodb --
+ >npm install mongodb
+install mongoose --
+ >npm install mongoose
+
+if mongodb cluster is available :
+    then connect to mongodb cluster using the connection !
+else :
+    create mongodb cluster and save the connection string !
+    if connection string is forget :
+         then go to mongodb compass then go to connection and see more (:) and choose option copy connection string !
+
+create a model folder 
+create a moviemodel.js file inside the model folder

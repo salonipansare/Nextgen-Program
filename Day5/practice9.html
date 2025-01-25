@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+        function bill()
+       {
+            var unit = parseFloat(document.getElementById('unit').value)  ;
+            var bill ;
+
+            if(unit < 100)
+            {
+                document.getElementById('restext').innerText = "No Charge !!!";
+                
+            }
+            else if(unit > 100 && unit < 200)
+            {
+                unit = unit - 100 ;
+                bill = 5 * unit ;
+                document.getElementById('restext').innerText = " Bill = " + bill;
+            }
+            else if(unit > 200)
+            {
+                unit = unit - 200 ;
+                bill = 10 * unit ;
+               
+                document.getElementById('restext').innerText = "Bill = "+ bill;
+            }
+
+          
+            //document.getElementById('restext').innerText = "BMI is : " + bmi ;
+        }
+    </script>
+</head>
+<body>
+    <h1>Bill Calculator</h1>
+    <form>
+        <input type ="number" id="unit" placeholder="Enter the units "/>
+        
+        <input type="button" onClick ="bill()" value = "Submit"/>
+        
+        <h2 id = "restext"> Your Bill Is :</h2>
+      
+    </form>
+</body>
+</html>

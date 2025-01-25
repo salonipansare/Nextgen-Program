@@ -1,0 +1,52 @@
+.parent{
+    height: 800px;
+    width: 1600px;
+   
+   
+}
+
+.or{
+    background-color: rgb(235, 130, 33);
+    height: 250px;
+    width: 1600px;
+}
+
+.wh{
+    background-color: white;
+    height: 250px;
+    width: 1600px;
+    padding-left: 700px;
+}
+
+.gr{
+    background-color: green;
+    height: 250px;
+    width: 1600px;
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows: repeat(2,100px);
+    gap: 10px;
+    justify-content:center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color:red;
+}
+.green{
+    background-color:green;
+}
+.blue{
+    background-color:blue;
+}
+.yellow{
+    background-color:yellow;
+}

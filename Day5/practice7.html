@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+       function add()
+       {
+            var a = parseInt(document.getElementById('a').value)  ;
+            var b = parseInt(document.getElementById('b').value)  ;
+            var c = a + b ;
+          
+            document.getElementById('restext').innerText = "Addition is : " + c ;
+        }
+        function sub()
+       {
+            var a = parseInt(document.getElementById('a').value)  ;
+            var b = parseInt(document.getElementById('b').value)  ;
+            var c = a - b ;
+          
+            document.getElementById('restext').innerText = "Substraction is : " + c ;
+        }
+        function mul()
+       {
+            var a = parseInt(document.getElementById('a').value)  ;
+            var b = parseInt(document.getElementById('b').value)  ;
+            var c = a * b ;
+          
+            document.getElementById('restext').innerText = "Multiplication  is : " + c ;
+        }
+        function div()
+       {
+            var a = parseInt(document.getElementById('a').value)  ;
+            var b = parseInt(document.getElementById('b').value)  ;
+            var c = a / b ;
+          
+            document.getElementById('restext').innerText = "Division  is : " + c ;
+        }
+
+    </script> 
+</head>
+<body>
+    <h1>Operations on the numbers</h1>
+    <form>
+        <input type ="number" id="a" placeholder="Enter value of a "/>
+        <input type ="number" id="b" placeholder="Enter value of b "/>
+        <input type="button" onClick ="add()" value = "Add"/>
+        <input type="button" onClick ="sub()" value = "Sub"/>
+        <input type="button" onClick ="mul()" value = "Mul"/>
+        <input type="button" onClick ="div()" value = "Div"/>
+        <h1 id = "restext">Result :</h1>
+    </form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+       // let km = 5 ;
+        //let miles = km * 0.621371 ;
+
+        //console.log(km + " Kilometers is equal to " + miles + " miles ");
+
+        function kmtomilesfun(){
+           // alert("button is clicked !");
+           // let miles = km * 0.621371 ;
+            var km = document.getElementById('km').value  ;
+            var miles = km * 0.6213 ;
+            console.log(miles);
+            document.getElementById('restext').innerText = "Miles value is : " + miles ;
+        }
+
+    </script> 
+</head>
+<body>
+    <h1>Kms to Miles Converter</h1>
+    <form>
+        <input type ="number" id="km" placeholder="Enter value in kms"/>
+        <input type="button" onClick ="kmtomilesfun()" value = "convert"/>
+        <h1 id = "restext">Result :</h1>
+    </form>
+</body>
+</html>

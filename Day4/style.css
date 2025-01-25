@@ -1,0 +1,95 @@
+.boxmodel1{
+    background-color: rgb(3, 3, 31);
+    height:800px;
+    width:300px;
+    
+}
+.h2style{
+    color: white;
+    font-family:serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box1{
+    height:50px;
+    width:250px;
+    color:white;
+    text-align:left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.box2{
+    height:50px;
+    width:250px;
+    color:white;
+    text-align:left;
+    padding-left: 30px;
+}
+.box3{
+    height:50px;
+    width:250px;
+    color:white;
+    text-align:left;
+    padding-left: 30px;
+}
+.box4{
+    height:50px;
+    width:250px;
+    color:white;
+    text-align:left;
+    padding-left: 30px;
+}
+.box5{
+    height:50px;
+    width:250px;
+    color:white;
+    text-align:left;
+    padding-left: 30px;
+}
+.box6{
+    height:50px;
+    width:250px;
+    color:white;
+    text-align:left;
+    padding-left: 30px;
+}
+.box7{
+    height:50px;
+    width:250px;
+    color:white;
+    text-align:left;
+    padding-left: 30px;
+}
+.box8{
+    height:50px;
+    width:250px;
+    color:white;
+    text-align:left;
+    padding-left: 30px;
+}
+.bigbox{
+    height:500px;
+    width:600px;
+    
+}
+
+.boxmodel2{
+    background-color:white;
+    height:800px;
+    width:800px;
+    
+}
+
+.parent{
+    background-color: white;
+    display: flex;
+}
+
+.boxmodel3{
+    background-color: white;
+    height:800px;
+    width:300px;
+    
+    flex-direction: column;
+}

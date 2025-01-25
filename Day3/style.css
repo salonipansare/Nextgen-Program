@@ -1,0 +1,53 @@
+.btnstyle{
+    background-color:yellow;
+    
+    font-size:x-large;
+    object-position:center;
+}
+
+.btnstyle:hover{
+    background-color:yellow;
+
+    font-size:x-large;
+
+}
+
+nav ul{
+    display : flex ;
+}
+
+nav ul li{
+    margin-right: 40px;
+    
+}
+
+.pstyle{
+    color:white
+}
+
+.h2style{
+    color: white;
+    background-color: rgb(1, 1, 26);
+}
+
+.boxmodel{
+    width:600px;
+    height:400px;
+    background-color: grey;
+    padding-left:70px;
+    padding-top: 90px;
+    margin-top: 50px;
+    
+    
+}
+.boxmodel1{
+    width:600px;
+    height:400px;
+    background-color: grey;
+    padding-left:70px;
+    padding-top: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+

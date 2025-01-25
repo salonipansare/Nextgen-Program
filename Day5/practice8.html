@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+        function bmi()
+       {
+            var w = parseFloat(document.getElementById('w').value)  ;
+            var h = parseFloat(document.getElementById('h').value)  ;
+            var bmi = (w/(h*h));
+
+            if(bmi< 18.5)
+            {
+                document.getElementById('restext').innerText = "BMI is : " + bmi  ;
+                const container = document.getElementById('imgcon');
+                const img = document.createElement('img');
+                img.src = 'under.jpg';
+                img.alt = 'You are Underweight';
+                img.width = 200 ;
+                img.height = 300 ;
+                container.appendChild(img);
+
+            }
+            else if(18.5 <= bmi && bmi <= 24.9)
+            {
+                document.getElementById('restext').innerText = "BMI is : " + bmi ;
+                const container = document.getElementById('imgcon');
+                const img = document.createElement('img');
+                img.src = 'normal.jpg';
+                img.alt = 'you are normal weight';
+                img.width = 200 ;
+                img.height = 300 ;
+                container.appendChild(img);
+            }
+            else if(25 <= bmi && bmi <= 29.9)
+            {
+                document.getElementById('restext').innerText = "BMI is : " + bmi ;
+                const container = document.getElementById('imgcon');
+                const img = document.createElement('img');
+                img.src = 'obese.jpg';
+                img.alt = 'you are overweight ';
+                img.width = 200 ;
+                img.height = 300 ;
+                container.appendChild(img);
+            }
+            else
+            {
+                document.getElementById('restext').innerText = "BMI is : " + bmi ;
+                const container = document.getElementById('imgcon');
+                const img = document.createElement('img');
+                img.src = 'over.jpg';
+                img.alt = 'you are obese';
+                img.width = 200 ;
+                img.height = 300 ;
+                container.appendChild(img);
+            }
+
+          
+            //document.getElementById('restext').innerText = "BMI is : " + bmi ;
+        }
+    </script>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form>
+        <input type ="number" id="w" placeholder="Enter your weight  "/>
+        <input type ="number" id="h" placeholder="Enter your height "/>
+        <input type="button" onClick ="bmi()" value = "Submit"/>
+        
+        <h2 id = "restext">About You :</h2>
+        <h1 id = "imgcon"></h1>
+    </form>
+</body>
+</html>

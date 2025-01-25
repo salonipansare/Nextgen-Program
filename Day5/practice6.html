@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+       function celtofar()
+       {
+            var cel = document.getElementById('cel').value  ;
+            var far = (cel * 9/5) + 32 ;
+            console.log(far);
+            document.getElementById('restext').innerText = "Farenheight value is : " + far ;
+        }
+
+    </script> 
+</head>
+<body>
+    <h1>celcius to Farenheight Converter</h1>
+    <form>
+        <input type ="number" id="cel" placeholder="Enter value in celcius"/>
+        <input type="button" onClick ="celtofar()" value = "convert"/>
+        <h1 id = "restext">Result :</h1>
+    </form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+#root{
+    max-width : 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+.h2style{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pstyle{
+    text-align: center;
+    
+}
+
+.boxmodel{
+    height: 170px;
+    width: auto;
+    background-color:rgb(243, 174, 47);
+    padding-top:10px;
+}
+
+.btnstyle{
+    color: white;
+    background-color: rgb(6, 6, 78);
+    
+}
+
+.boxmodel1{
+    width: auto;
+    height: 440px;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -20px;
+   
+}
+
+.boxmodel2{
+    background-color:rgb(4, 4, 48) ;
+    height:100px;
+    padding-top: px;
+    
+}
+
+.h22style{
+    text-align: center;
+    margin-bottom: -30px;
+    margin-top: 20px;
+}
+
+.box1{
+    background-color:white;
+    height:350px ;
+    width:200px;
+   
+   
+}
+
+.box2{
+    background-color:white;
+    height:350px ;
+    width:200px;
+   
+  
+ 
+}
+
+.btnbx{
+    margin-left: 10%;
+    background-color:rgb(243, 174, 47) ;
+    font-size: smaller;
+    border-radius: 7px;
+
+}
+
+.pppstyle{
+    color:black;
+    text-align: center;
+    padding-top: 25px;
+   
+}
+.ppppstyle{
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+
+.ppstyle{
+    color:rgb(243, 174, 47) ;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+img{
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+   
+    

@@ -1,0 +1,22 @@
+mongoDb steps :-
+
+1.create cluster
+2.create username - avcoe and password - K4ZN78v3uOKoydGe
+3.create network access
+
+
+
+mongodb url :- mongodb+srv://avcoe:<db_password>@cluster1.3fz4b.mongodb.net/
+enter password in between <> 
+
+movie name 
+hero
+heroien
+release yr
+rating
+genre
+
+{
+    "moviename": "ramsetu",
+    "hero" : "
+}
